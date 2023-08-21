@@ -24,7 +24,7 @@ const Team = () => {
 
 
     return (
-        <div className='flex  flex-col items-center pt-[10rem]  h-[70vh] w-screen '>
+        <div className='flex  flex-col items-center pt-[10rem] p-40  h-[50rem] w-screen '>
             <div className=' flex  gap-[12rem]'>
                 <h4 className='  w-[28rem] text-black font-josefin-sans text-[3rem] font-bold leading-[140%]'>Meet our
                     team of <span className='text-red-500'>Creatives</span></h4>
