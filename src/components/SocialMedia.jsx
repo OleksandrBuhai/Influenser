@@ -25,7 +25,7 @@ const SocialMedia = () => {
     ]
 
     return (
-        <div className='h-[30vh] bg-[#F5E2D4] pt-4 flex justify-around items-center'>
+        <div className='h-[30vh] bg-[#F5E2D4] w-screen pt-4 flex justify-around items-center'>
             {Image.map((el,index)=>{
                 return (
                     <img src={el.img} key={index} className='w-[11.5rem] h-[2.8rem]'/>
