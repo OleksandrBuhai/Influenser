@@ -6,6 +6,10 @@ export default {
     extend: {  fontFamily: {
         'josefin-sans': ['Josefin Sans', 'sans-serif'],
       },},
+    listStyleImage: {
+      checkmark: 'url("./src/assets/descriptionImg/listDecor.png")',
+    },
+
   },
   plugins: [],
 }

@@ -6,7 +6,8 @@ import vertical from '../assets/horizontalImg.png'
 
 const Main = () => {
     return (
-        <div className='w-screen flex h-screen  bg-white  '>
+        <div className='w-screen flex h-[100%] bg-white  '>
+            {/*text*/}
             <img className='w-[1rem] h-[10rem] absolute left-[2.5rem] top-[5rem] flex-shrink-0' src={vertical}/>
             <div className='flex '>
                 <div className=' w-full  p-20 px-40 py-10 flex flex-col items-start '>
@@ -29,7 +30,9 @@ const Main = () => {
                 </div>
                <span className='transform rotate-90 absolute top-[38rem] font-[0.75rem] font-style: italic font-500'> salutandi/2024.</span>
             </div>
-            <div className='h-[44rem] w-[48rem] flex-shrink-0'>
+
+            {/*avatar*/}
+            <div className='h-[100%] w-[48rem] flex-shrink-0'>
                 <img src={avatar}/>
             </div>
         </div>
