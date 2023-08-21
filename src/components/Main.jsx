@@ -4,6 +4,9 @@ import influexa from '../assets/influexa.png'
 import avatar from '../assets/avatar.png'
 import vertical from '../assets/horizontalImg.png'
 
+import eclipse from '../assets/eclipse.png'
+import vector from '../assets/vector.png'
+
 const Main = () => {
     return (
         <div className='w-screen flex h-[100%] bg-white  '>
@@ -32,8 +35,14 @@ const Main = () => {
             </div>
 
             {/*avatar*/}
-            <div className='h-[100%] w-[48rem] flex-shrink-0'>
-                <img src={avatar}/>
+            <div className='h-[100%] w-[48rem] flex-shrink-0 relative'>
+                <img src={avatar} alt='' />
+                <div className='absolute top-0 right-0 w-[6rem] h-[6rem]'>
+                    <img className='w-full h-full' src={eclipse} alt='' />
+                    <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                        <img className='w-[1.875rem] h-[1.25rem]' src={vector} alt='' />
+                    </div>
+                </div>
             </div>
         </div>
     )
