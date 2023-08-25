@@ -1,0 +1,11 @@
+// api/tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "esModuleInterop": true
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules"]
+}
