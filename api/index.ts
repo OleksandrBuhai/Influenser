@@ -1,7 +1,6 @@
 
 /*start by command npx ts-node index.ts*/
 
-
 import express from 'express';
 import * as http from 'http';
 

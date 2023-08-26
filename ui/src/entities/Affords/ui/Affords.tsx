@@ -1,9 +1,11 @@
-import firstImg from '../assets/afford/first.png';
-import secondImg from '../assets/afford/second.png';
 
-const Affords = () => {
+import firstImg from '@/assets/afford/first.png';
+import secondImg from '@/assets/afford/second.png';
+import {FC} from "react";
+
+export const Affords:FC = () => {
   return (
-    <div className="mt-10 flex  h-[40rem] w-screen  items-center ">
+    <div className="mt-10 flex flex-col sm:flex-row h-auto w-full items-center">
       {/*text*/}
       <div className="flex w-[50%] flex-col pl-40 ">
         <h4 className="font-josefin-sans text-[3rem] font-bold text-black">
@@ -29,4 +31,4 @@ const Affords = () => {
   );
 };
 
-export default Affords;
+

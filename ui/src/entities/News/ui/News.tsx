@@ -1,10 +1,10 @@
-import line from '../assets/line.png';
+import line from '@/assets/line.png';
+import first from '@/assets/News/firsImg.png';
+import second from '@/assets/News/second.png';
+import third from '@/assets/News/third.png';
+import {FC} from "react";
 
-import first from '../assets/News/firsImg.png';
-import second from '../assets/News/second.png';
-import third from '../assets/News/third.png';
-
-const News = () => {
+export const News:FC = () => {
   const state = [
     {
       img: first,
@@ -39,7 +39,7 @@ const News = () => {
           </span>
         </div>
         <h4 className="font-inter text-[3rem] font-semibold leading-normal text-[#1D2B4F]">
-          Check <span className="text-red-500">the News</span>
+          Check <span className="text-custom-red">the News</span>
         </h4>
       </div>
       <div className="flex items-center justify-around gap-10 pt-10">
@@ -70,4 +70,4 @@ const News = () => {
   );
 };
 
-export default News;
+

@@ -1,13 +1,12 @@
-import mainImg from '../assets/testimonials/mainImg.png'
-import line from '../assets/line.png'
+import mainImg from '@/assets/testimonials/mainImg.png'
+import line from '@/assets/line.png'
+import firstImg from '@/assets/team/first.png'
+import secondImg from '@/assets/team/Second.png'
+import thirdImg from '@/assets/team/Third.png'
+import arrow from '@/assets/arrow.png'
+import {FC} from "react";
 
-import firstImg from '../assets/team/first.png'
-import secondImg from '../assets/team/Second.png'
-import thirdImg from '../assets/team/Third.png'
-
-import arrow from '../assets/arrow.png'
-
-const Testimonial = () => {
+export const Testimonial:FC = () => {
     return (
         <div className='h-[100vh] w-[100%]  pt-20 p-40'>
             <div className='flex  flex-col'>
@@ -54,4 +53,3 @@ const Testimonial = () => {
     );
 };
 
-export default Testimonial;

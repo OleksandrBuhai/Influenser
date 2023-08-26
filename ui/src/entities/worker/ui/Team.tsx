@@ -2,7 +2,6 @@ import { FC } from 'react';
 import firstIMg from '@/assets/team/first.png';
 import secondImg from '@/assets/team/Second.png';
 import thirdIMg from '@/assets/team/Third.png';
-
 import calendar from '@/assets/team/smalmg/calendar.png';
 import profile from '@/assets/team/smalmg/profile.png';
 import chat from '@/assets/team/smalmg/chat.png';

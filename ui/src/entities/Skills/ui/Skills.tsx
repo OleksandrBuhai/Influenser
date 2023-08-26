@@ -1,6 +1,7 @@
-import arrow from './../assets/arrow.png';
+import arrow from '@/assets/arrow.png';
+import {FC} from "react";
 
-const Skills = () => {
+export const Skills:FC = () => {
   const state = [
     {
       title: 'SEO Analysis',
@@ -23,10 +24,10 @@ const Skills = () => {
   ];
 
   return (
-    <div className="flex h-[25rem] w-screen items-center gap-10 bg-[#FAFAFA;] p-[5rem]">
+    <div className="flex flex-col sm:flex-row lg:h-[30rem] sm:h-[25rem] w-full items-center gap-10 bg-[#FAFAFA] p-5 sm:p-[5rem]">
       {state.map((el, index) => {
         return (
-          <div key={index} className=" border-primary relative border-l-2 p-5 ">
+          <div key={index} className="border-primary relative border-l-2 p-5 ">
             <span className="font-inter text-[1rem] font-normal text-black ">{el.title}</span>
             <h4 className='text-white" mb-5 mt-5  font-josefin-sans text-[2.125rem] font-bold'>
               {el.skill}
@@ -49,4 +50,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+

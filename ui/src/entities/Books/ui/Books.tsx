@@ -1,9 +1,10 @@
-import pinkOne from '../assets/booksIMg/pinkOne.png'
-import blackOne from '../assets/booksIMg/blackOne.png'
-import redOne from '../assets/booksIMg/redOne.png'
-import deb from '../assets/booksIMg/debOne.png'
+import pinkOne from '@/assets/booksIMg/pinkOne.png'
+import blackOne from '@/assets/booksIMg/blackOne.png'
+import redOne from '@/assets/booksIMg/redOne.png'
+import deb from '@/assets/booksIMg/debOne.png'
+import {FC} from "react";
 
-const Books = () => {
+export const Books:FC = () => {
 
     const state = [{
         img:pinkOne,
@@ -42,4 +43,3 @@ const Books = () => {
     );
 };
 
-export default Books;

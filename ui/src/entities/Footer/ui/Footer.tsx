@@ -1,6 +1,7 @@
+import {FC} from "react";
 
 
-const Footer = () => {
+export  const Footer:FC = () => {
     return (
         <div className='h-[30rem] p-20 text-white bg-[#111502]'>
             <div className=' flex justify-between '>
@@ -49,4 +50,3 @@ const Footer = () => {
     );
 };
 
-export default Footer;

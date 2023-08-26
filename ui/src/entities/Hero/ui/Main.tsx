@@ -1,15 +1,17 @@
-import arrow from '../assets/arrow.png'
-import eagle from '../assets/eagleLogo.png'
-import influexa from '../assets/influexa.png'
-import avatar from '../assets/avatar.png'
-import vertical from '../assets/horizontalImg.png'
+import arrow from '@/assets/arrow.png'
+import eagle from '@/assets/eagleLogo.png'
+import influexa from '@/assets/influexa.png'
+import avatar from '@/assets/avatar.png'
+import vertical from '@/assets/horizontalImg.png'
+import eclipse from '@/assets/eclipse.png'
+import vector from '@/assets/vector.png'
 
-import eclipse from '../assets/eclipse.png'
-import vector from '../assets/vector.png'
 
-const Main = () => {
+import {FC} from "react";
+
+export const Main:FC = () => {
     return (
-        <div className='w-screen flex h-[100%] bg-white  '>
+        <div className='w-screen flex h-[100%] bg-white sm:flex sm:h-[100%]  '>
             {/*text*/}
             <img className='w-[1rem] h-[10rem] absolute left-[2.5rem] top-[5rem] flex-shrink-0' src={vertical}/>
             <div className='flex '>
@@ -19,9 +21,10 @@ const Main = () => {
                       <img className='w-[7.0625rem] h-[1.5rem]' src={influexa}/>
                     </span>
                     <h1 className='text-black font-josefin-sans font-bold text-7xl'>We Bring</h1>
-                    <p className='text-red font-josefin-sans font-bold text-7xl  text-red-500'>Customers</p>
+                    <p className='text-red font-josefin-sans font-bold text-7xl  text-primary'>Customers</p>
                     <span
-                        className="w-full text-black font-josefin-sans  font-style: italic text-base font-medium items-start leading-relaxed pt-[2rem]">Et ullum iisque conclusionemque eam, mel ad erat cum accumsan noluisse, nostrum accumsan movet salutandi. Fugit expetenda interesset no, probo eloquentiam mei eu.</span>
+                        className="w-full text-black font-josefin-sans  font-style: italic text-base font-medium items-start leading-relaxed pt-[2rem]">Et ullum iisque conclusionemque eam, mel ad erat cum accumsan noluisse, nostrum accumsan movet salutandi.
+                        Fugit expetenda interesset no, probo eloquentiam mei eu.</span>
                     <div className='pt-[5rem]'>
                         <button className="bg-gray-200 text-white py-5 px-5  w-[11rem]">
                       <span className="text-black font-josefin-sans text-lg font-[1rem] leading-[177.5%] ">
@@ -48,4 +51,3 @@ const Main = () => {
     )
 }
 
-export default Main

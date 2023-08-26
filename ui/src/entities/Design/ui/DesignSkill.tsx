@@ -1,5 +1,6 @@
+import {FC} from "react";
 
-const DesignSkill = () => {
+export const DesignSkill:FC = () => {
     return (
         <div className='flex  justify-around items-center p-10  h-[70vh] w-screen '>
             {/*text*/}
@@ -27,4 +28,3 @@ const DesignSkill = () => {
     )
 }
 
-export default DesignSkill
